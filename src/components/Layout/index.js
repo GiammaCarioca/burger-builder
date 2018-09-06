@@ -1,9 +1,10 @@
 import React, { Fragment } from 'react';
+import { Content } from './styles';
 
 const Layout = ({ children }) => (
   <Fragment>
     <div>Toolbar, SideDrawer, Backdrop</div>
-    <main>{children}</main>
+    <Content>{children}</Content>
   </Fragment>
 );
 
